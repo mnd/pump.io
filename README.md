@@ -229,6 +229,8 @@ Here are the main configuration keys.
   Defaults to 1200000, or 20 minutes.
 * *favicon* Local filesystem path to the favicon.ico file to use. This will be served as "/favicon.ico"
   by the server. By default, uses public/images/favicon.ico.
+* *noLibreJS* Disable javascript [license labels](https://www.gnu.org/software/librejs/free-your-javascript.html#step3).
+  Defaults to `false`, meaning provide license labels for javascript.
 
 ### Web server proxy
 
